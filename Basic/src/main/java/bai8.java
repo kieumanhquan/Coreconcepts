@@ -33,6 +33,7 @@ public class bai8 {
         }
         return reversed;
     }
+    //Nên dùng switch case
     /*b
     // Hàm liệt kê các số thuận nghịch có sáu chữ số mà tổng chữ số chia hết cho 10
     public static void findPalindromicNumbersDivisibleBy10() {
