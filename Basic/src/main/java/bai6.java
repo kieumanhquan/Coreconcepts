@@ -8,6 +8,7 @@ public class bai6 {
         System.out.println("Enter n: ");
         int n = in.nextInt();
 
+        //dùng do while 
         if(n<2){
             System.out.println("So phai lon hon 2 !");
             return;
@@ -21,7 +22,7 @@ public class bai6 {
             System.out.println(2+"");
             n/=2;
         }
-        for(int i=3;i<=Math.sqrt(n);i+=2){
+        for(int i=3;i<=Math.sqrt(n);i+=2){ // viết hàm thay thế cho Collection này
             while(n%i==0){
                 System.out.println(i+"");
                 n/=i;
