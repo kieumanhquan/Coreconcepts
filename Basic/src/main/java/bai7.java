@@ -8,7 +8,7 @@ public class bai7 {
 
     public static boolean isPrime(int n) {
         if (n <= 1) return false;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) { //viêt shàm thay thế cho Collection này
             if (n % i == 0) return false;
         }
         return true;
