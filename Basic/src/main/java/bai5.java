@@ -14,7 +14,7 @@ public class bai5 {
     }
     public static int Sum(int n){
         int sum = 0;
-        n = Math.abs(n);
+        n = Math.abs(n); // viết hàm thay thế cho Collection này
         while (n != 0) {
             sum += n % 10;
             n /= 10;
