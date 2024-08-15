@@ -10,6 +10,8 @@ public class bai1 {
 
         int sum=0;
 
+        //em nên tách ý  a b thành các class riêng biệt hoặc dùng switch case
+
 //a
     /*  if (n%2==0){
             for(int i=1;i<=n;i++){
@@ -29,6 +31,7 @@ public class bai1 {
         }
     */
 //b
+    
         double sum1=0.0;
         for(int i=1;i<=n;i++){
             sum1+=1.0/i;
