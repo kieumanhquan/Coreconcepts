@@ -8,6 +8,8 @@ public class bai2 {
         System.out.println("Nhap vao n: ");
         int n = in.nextInt();
         int sum=0;
+        //Em dùng điều kiện này để dùng cũng được nhưng thay vì dùng if xong dùng lại
+        // thì nên dùng do while
         if(n<=0){
             System.out.println("Nhap so n lon hon 0!!");
             return;
