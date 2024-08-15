@@ -15,7 +15,7 @@ public class bai4 {
 
     public static boolean isPrime(int n) {
         if (n <= 1) return false;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) { //Viết hàm thay thế cho Collection sqrt này
             if (n % i == 0) return false;
         }
         return true;
